@@ -1,0 +1,28 @@
+
+
+.result-card-container{
+    background-color: rgb(39, 33, 81);
+    color:rgb(216, 190, 241);
+    margin: 10px 15px;
+    min-width: 75px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(255 255 255 0.1);
+    transition: background 0.35s;
+    display: flex;
+    justify-content: center;
+}
+
+.result-card-container:hover{
+    background-color: rgb(92, 37, 144);
+    box-shadow: 0 0 5px rgb(255 255 255 0.2);
+}
+
+.result-card{
+    margin: 0;
+    font-weight: 100;
+}
+
+.inside-card-text{
+    text-decoration: none;
+}

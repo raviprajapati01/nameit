@@ -1,0 +1,15 @@
+.result-container{
+    display:flex;
+    justify-content: center;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    margin-top: 0.5%;
+}
+
+.container-sapration{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 40px;
+    max-width: 60%;
+}

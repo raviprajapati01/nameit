@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search_ingen{
+    padding: 8px 15px;
+    width: 250px;
+    font-size: 15px;
+    background-color: rgb(180, 118, 239);
+    color: white;
+    border-width: 0;
+    border-radius: 15px;
+}
+.search_ingen{
+    width: 280px;
+}
+
+.search_ingen::placeholder{
+    color: white;
+}
+.search_ingen:focus{
+    outline: none;
+}
